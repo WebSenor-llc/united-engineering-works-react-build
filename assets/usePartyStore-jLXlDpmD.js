@@ -1,1 +1,0 @@
-import{ab as t,h as s,e as o}from"./index-Cljs0C-M.js";const l=t(e=>({parties:[],loading:!1,error:null,fetchParties:async()=>{e({loading:!0,error:null});try{const r=(await s.get(o.party_master.all)).data?.parties||[];console.log("reponse",r),e({parties:r})}catch(a){e({error:a.message||"Failed to fetch parties",loading:!1})}}}));export{l as u};
