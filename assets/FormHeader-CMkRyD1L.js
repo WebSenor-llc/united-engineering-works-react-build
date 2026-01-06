@@ -1,2 +1,0 @@
-import{u as a,j as s,a6 as r}from"./index-9KeMeSmC.js";const n=()=>{const e=a();return s.jsx("button",{onClick:()=>e(-1),className:`flex items-center\r
-                 text-gray-700 rounded-lg mt-3 transition justify-start mr-2`,children:s.jsx(r,{className:"w-6 h-6"})})},x=({title:e,subtitle:t})=>s.jsxs("div",{className:"space-y-1 flex ",children:[s.jsx("div",{children:s.jsx(n,{})}),s.jsxs("div",{children:[s.jsx("h1",{className:"text-2xl font-bold text-gray-800",children:e}),t&&s.jsx("p",{className:"text-gray-500 text-sm",children:t})]})]});export{x as F};

@@ -1,0 +1,1 @@
+import{ae as r,h as s,e as t}from"./index-DHxjsmS_.js";const c=r(a=>({machines:[],loading:!1,error:null,fetchMachines:async()=>{a({loading:!0,error:null});try{const e=await s.get(t.machine_master.all);a({machines:e.data})}catch(e){a({error:e.message||"Failed to fetch machines",loading:!1})}}}));export{c as u};
