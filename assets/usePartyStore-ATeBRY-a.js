@@ -1,0 +1,1 @@
+import{af as s,h as i,e as o}from"./index-BAaTephW.js";const p=s(a=>({parties:[],loading:!1,error:null,fetchParties:async()=>{a({loading:!0,error:null});try{const t=((await i.get(o.party_master.all)).data?.parties||[]).filter(r=>r.is_active);a({parties:t,loading:!1})}catch(e){a({error:e.message||"Failed to fetch parties",loading:!1})}}}));export{p as u};

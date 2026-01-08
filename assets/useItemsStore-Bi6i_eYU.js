@@ -1,1 +1,0 @@
-import{ae as s,h as o,e as r}from"./index-BSu8tAiZ.js";const m=s(e=>({items:[],loading:!1,fetchItems:async()=>{e({loading:!0});try{const a=(await o.get(r.item_master.all)).data?.items??[];e({items:a})}catch(t){console.error("Failed to fetch items:",t)}finally{e({loading:!1})}},setItems:t=>e({items:t})}));export{m as u};

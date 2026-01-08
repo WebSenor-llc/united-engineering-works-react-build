@@ -1,0 +1,1 @@
+const s=["Department Head","Operations Manager","Ast. Operations Manager"],r=["Purchase Manager","Purchase Executive"],a=["Workshop Supervisor","Site Supervisor","Site Incharge"],t=(e="")=>s.includes(e.trim()),o=(e="")=>r.includes(e.trim()),i=(e="")=>a.includes(e.trim());export{i as a,t as c,o as i};
