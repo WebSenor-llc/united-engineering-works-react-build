@@ -1,0 +1,1 @@
+import{j as r,n as s,C as e}from"./index-pN5-d-m8.js";const a=()=>r.jsx(s,{open:!0,sx:{color:"#fff",zIndex:o=>o.zIndex.drawer+9999,backgroundColor:"rgba(0, 0, 0, 0.3)"},children:r.jsx(e,{size:30,thickness:3,sx:{color:"white",borderColor:"white"}})});export{a as L};
