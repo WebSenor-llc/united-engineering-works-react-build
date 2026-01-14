@@ -1,0 +1,1 @@
+import{ah as r,h as s,e as n}from"./index-gVZAAP-J.js";const c=r(a=>({branches:[],loading:!1,error:null,fetchBranches:async()=>{a({loading:!0,error:null});try{const e=await s.get(n.branches.all);a({branches:e.data?.branches||[],loading:!1})}catch(e){a({loading:!1,error:e?.message||"Failed to fetch branches"})}}}));export{c as u};
