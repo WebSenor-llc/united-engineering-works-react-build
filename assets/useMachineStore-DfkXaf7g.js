@@ -1,1 +1,0 @@
-import{ah as t,h as n,e as o}from"./index-DQLLPGln.js";const l=t(a=>({machines:[],loading:!1,error:null,fetchMachines:async()=>{a({loading:!0,error:null});try{const r=(await n.get(o.machine_master.all)).data.filter(s=>s.status==="operational");a({machines:r,loading:!1})}catch(e){a({error:e.message||"Failed to fetch machines",loading:!1})}}}));export{l as u};
