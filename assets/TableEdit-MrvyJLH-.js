@@ -1,1 +1,0 @@
-import{j as e,F as s}from"./index-CHv2um3-.js";const r=({onClick:t})=>e.jsx("button",{onClick:t,className:"flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 hover:text-blue-700 transition",title:"Edit",children:e.jsx(s,{size:16})});export{r as T};
