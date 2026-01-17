@@ -1,1 +1,0 @@
-import{j as e,aa as n}from"./index-C-HhpDkY.js";const s=({onClick:t,title:r})=>e.jsx("button",{onClick:t,className:"flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-600 hover:bg-green-200 hover:text-green-700 transition",title:r||"Download Job Card",children:e.jsx(n,{size:16})});export{s as T};
