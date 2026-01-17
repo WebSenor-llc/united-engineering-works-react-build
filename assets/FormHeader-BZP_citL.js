@@ -1,0 +1,1 @@
+import{j as s}from"./index-C1K7pf_x.js";import{B as t}from"./BackButton-B2Rfagm-.js";const c=({title:r,subtitle:e})=>s.jsxs("div",{className:"space-y-1 flex ",children:[s.jsx("div",{children:s.jsx(t,{})}),s.jsxs("div",{children:[s.jsx("h1",{className:"text-2xl font-bold text-gray-800",children:r}),e&&s.jsx("p",{className:"text-gray-500 text-sm",children:e})]})]});export{c as F};
