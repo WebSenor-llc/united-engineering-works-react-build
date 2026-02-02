@@ -1,1 +1,0 @@
-import{j as r,k as s,C as e}from"./index-DZtYjDQU.js";const n=()=>r.jsx(s,{open:!0,sx:{color:"#fff",zIndex:o=>o.zIndex.drawer+9999,backgroundColor:"rgba(0, 0, 0, 0.3)"},children:r.jsx(e,{size:30,thickness:3,sx:{color:"white",borderColor:"white"}})});export{n as L};
