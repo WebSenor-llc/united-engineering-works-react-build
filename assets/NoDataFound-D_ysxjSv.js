@@ -1,0 +1,1 @@
+import{j as t}from"./index-B6B_N_Cs.js";const a=()=>t.jsx("div",{className:"bg-white py-5 mt-3",children:t.jsx("p",{className:"text-center font-medium text-gray-700",children:"No Data Found!"})});export{a as N};
