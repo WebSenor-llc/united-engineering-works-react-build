@@ -1,0 +1,4 @@
+import{r as $,j as v}from"./index-BquiiQqz.js";import{T as E}from"./TextArea-Cdxp_NNp.js";const b=({value:n,onChange:f,...j})=>{const o=$.useRef(null),w=l=>{const u=l.target.value,e=l.target,g=e.selectionStart;e.selectionEnd;const h=u.split(`
+`),m=h.map((t,i)=>{const S=t.replace(/^\d+\.\s*/,"");return S.trim()===""&&i===h.length-1?`${i+1}. `:`${i+1}. ${S}`}),T=m.join(`
+`);let r=g;const a=u.substring(0,g).split(`
+`),s=a.length-1,p=a[s].length;let c=0;for(let t=0;t<s;t++)c+=m[t].length+1;const x=`${s+1}. `,d=a[s].match(/^\d+\.\s*/),L=d?d[0].length:0;if(p<=L?r=c+x.length:r=c+x.length+(p-L),f){const t=e.value;e.value=T,f(l),e.value=t}setTimeout(()=>{o.current&&o.current.setSelectionRange(r,r)},0)},R=typeof n=="string"&&n.trim()===""||!n?"1. ":n;return v.jsx(E,{...j,ref:o,value:R,onChange:w})};export{b as N};
